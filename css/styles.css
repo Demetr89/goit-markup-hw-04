@@ -234,6 +234,7 @@ img {
   font-size: 16px;
   line-height: calc(30 / 16);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: var(--team-color-content);
 }
 
 .btn:hover,
@@ -268,6 +269,58 @@ img {
   font-size: 14px;
   line-height: calc(24 / 14);
   width: 270px;
+}
+
+.icon-antena::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-image: url(../img/antenna\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--team-color-content);
+  border-radius: 4px;
+  /*outline: 1px solid red;*/
+  margin-bottom: 30px;
+}
+
+.icon-clock::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-image: url(../img/clock\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--team-color-content);
+  border-radius: 4px;
+  /*outline: 1px solid red;*/
+  margin-bottom: 30px;
+}
+
+.icon-diagram::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-image: url(../img/diagram\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--team-color-content);
+  border-radius: 4px;
+  /*outline: 1px solid red;*/
+  margin-bottom: 30px;
+}
+
+.icon-astronaut::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-image: url(../img/astronaut\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--team-color-content);
+  border-radius: 4px;
+  /*outline: 1px solid red;*/
+  margin-bottom: 30px;
 }
 
 .propriet .title {
