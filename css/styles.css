@@ -253,6 +253,7 @@ img {
   color: var(--main-txt-cl);
   font-family: var(--main-font);
   margin: 0px;
+  gap: 30px;
 }
 
 .feature .item {
