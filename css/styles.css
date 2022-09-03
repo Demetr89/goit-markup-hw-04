@@ -423,6 +423,9 @@ img {
   list-style-type: none;
   margin-bottom: 10px;
 }
+.footer .list-item:last-child {
+  margin-bottom: 0;
+}
 
 .contacts:hover,
 .contacts:focus {
