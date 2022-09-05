@@ -276,7 +276,7 @@ img {
   display: block;
   content: '';
   height: 120px;
-  background-image: url(../img/antenna\ 1.svg);
+  background-image: url(../img/icons/antena.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--team-color-content);
@@ -289,7 +289,7 @@ img {
   display: block;
   content: '';
   height: 120px;
-  background-image: url(../img/clock\ 1.svg);
+  background-image: url(../img/icons/clock.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--team-color-content);
@@ -302,7 +302,7 @@ img {
   display: block;
   content: '';
   height: 120px;
-  background-image: url(../img/diagram\ 1.svg);
+  background-image: url(../img/diagram.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--team-color-content);
@@ -315,7 +315,7 @@ img {
   display: block;
   content: '';
   height: 120px;
-  background-image: url(../img/astronaut\ 1.svg);
+  background-image: url(../img/astronaut.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--team-color-content);
