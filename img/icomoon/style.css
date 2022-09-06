@@ -9,16 +9,40 @@
 
 /* ==========================================
 Single-colored icons can be modified like so:
-.name {
+.icon-name {
   font-size: 32px;
   color: red;
 }
 ========================================== */
 
-.envelope {
+.icon-mail {
   width: 1.3330078125em;
 }
 
-.Vector {
+.icon-phone {
   width: 0.625em;
+}
+
+.icon-union {
+  width: 1.7666015625em;
+}
+
+.icon-company {
+  width: 1.7666015625em;
+}
+
+.icon-comp {
+  width: 1.7666015625em;
+}
+
+.icon-foster {
+  width: 1.7666015625em;
+}
+
+.icon-brand {
+  width: 1.7666015625em;
+}
+
+.icon-teg {
+  width: 1.7666015625em;
 }
