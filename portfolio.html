@@ -25,10 +25,10 @@
 
         <ul class="list-nav">
           <li class="list-item">
-            <a class="link studia" href="./index.html">Студія</a>
+            <a class="link studia current" href="./index.html">Студія</a>
           </li>
           <li class="list-item">
-            <a class="link portfolio current" href="./portfolio.html">Портфоліо</a>
+            <a class="link portfolio" href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="list-item">
             <a class="link" href="Контакти">Контакти</a>
@@ -36,8 +36,26 @@
         </ul>
 
         <ul class="list-contats">
-          <li class="item"><a class="link" href="info@devstudio.com">info@devstudio.com</a></li>
-          <li class="item"><a class="link" href="+380961111111">+38 096 111 11 11</a></li>
+          <li class="item">
+            <div class="icon-contact"
+              ><a class="contacts-link link" href="info@devstudio.com"
+                ><svg class="contacts-icon" width="16px" height="12px">
+                  <use href="./img/icomoon/icons.svg#mail"></use>
+                </svg>
+                info@devstudio.com</a
+              ></div
+            ></li
+          >
+          <li class="item"
+            ><div class="icon-contact"
+              ><a class="contacts-link link" href="+380961111111"
+                ><svg class="contacts-icon" width="10px" height="16px">
+                  <use href="./img/icomoon/icons.svg#phone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              ></div
+            ></li
+          >
         </ul>
       </nav>
     </header>
@@ -178,32 +196,92 @@
     <!--adress-->
 
     <footer class="footer">
-      <div class="conteiner">
-        <a class="logo-link" href="/index.html">Web<span class="logo-footer">Studio</span></a>
+      <div class="conteiner flex-container">
+        <div class="contacts">
+          <a class="logo-link" href="/index.html">Web<span class="logo-footer">Studio</span></a>
 
-        <address class="contacts-addres">
-          <ul>
-            <li class="list-item">
+          <address class="contacts-addres">
+            <ul>
+              <li class="list-item">
+                <a
+                  class="link"
+                  href="https://goo.gl/maps/QBtDgZ8n4gNLvhWR7"
+                  target="_blank"
+                  rel="noopener no referrer "
+                  ><span class="link adress">м. Київ, пр-т Лесі Українки, 26</span></a
+                >
+              </li>
+              <li class="list-item">
+                <a class="link" href="mailto:info@devstudio.com"
+                  ><span class="contacts">info@devstudio.com</span></a
+                >
+              </li>
+              <li class="list-item">
+                <a class="link" href="tel:+380961111111"
+                  ><span class="contacts">+38096 111 11 11</span></a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="conteiner-socials">
+          <p class="footer-aten">приєднуйтесь</p>
+
+          <ul class="footer-socials list">
+            <li class="socials-item">
               <a
-                class="link"
-                href="https://goo.gl/maps/QBtDgZ8n4gNLvhWR7"
+                class="socials-link-f link"
+                href="https://instagram.com"
                 target="_blank"
-                rel="noopener no referrer "
-                ><span class="link adress">м. Київ, пр-т Лесі Українки, 26</span></a
+                rel="noopener noreferrer"
+                aria-label="Instagram"
               >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./img/icomoon/icons.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="list-item">
-              <a class="link" href="mailto:info@devstudio.com"
-                ><span class="contacts">info@devstudio.com</span></a
+            <li class="socials-item">
+              <a
+                class="socials-link-f link"
+                href="https://twitter.com"
+                aria-label="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./img/icomoon/icons.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="list-item">
-              <a class="link" href="tel:+380961111111"
-                ><span class="contacts">+38096 111 11 11</span></a
+            <li class="socials-item">
+              <a
+                class="socials-link-f link"
+                href="https://facebook.com"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./img/icomoon/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link-f link"
+                href="https://linkedin.com"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./img/icomoon/icons.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>

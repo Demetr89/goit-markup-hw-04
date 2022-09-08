@@ -210,8 +210,6 @@ img {
   display: flex;
   list-style-type: none;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .list-contats .link {
@@ -275,16 +273,16 @@ img {
   width: 270px;
 }
 
-/*.icon-antena::before {
+.icon-antena::before {
   display: block;
   content: '';
   height: 120px;
-  background-image: url(../img/icons/antena.svg);
+  background-image: url(../img/antena.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--team-color-content);
   border-radius: 4px;
-  /*outline: 1px solid red;
+
   margin-bottom: 30px;
 }
 
@@ -292,12 +290,12 @@ img {
   display: block;
   content: '';
   height: 120px;
-  background-image: url(../img/icons/clock.svg);
+  background-image: url(../img/clock.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--team-color-content);
   border-radius: 4px;
-  /*outline: 1px solid red;
+
   margin-bottom: 30px;
 }
 
@@ -305,12 +303,12 @@ img {
   display: block;
   content: '';
   height: 120px;
- background-image: url(../img/diagram.svg);
+  background-image: url(../img/diagram.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--team-color-content);
   border-radius: 4px;
-  outline: 1px solid red;
+
   margin-bottom: 30px;
 }
 
@@ -323,9 +321,9 @@ img {
   background-position: center;
   background-color: var(--team-color-content);
   border-radius: 4px;
-outline: 1px solid red;
+
   margin-bottom: 30px;
-}*/
+}
 .group-icon {
   margin-bottom: 30px;
 }
@@ -396,11 +394,6 @@ outline: 1px solid red;
   list-style-type: none;
 }
 
-.footer .link:hover,
-.footer .link:focus {
-  color: var(--brand-color-left);
-}
-
 .footer {
   background: var(--hero-footer-color);
   padding-top: 60px;
@@ -409,7 +402,7 @@ outline: 1px solid red;
   margin-right: 0px;
 }
 
-.footer .title {
+.footer-aten {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -418,8 +411,16 @@ outline: 1px solid red;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color-fut);
-  padding-top: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.conteiner-socials {
+  margin-left: 70px;
 }
 
 .logo-footer {
@@ -557,28 +558,28 @@ outline: 1px solid red;
   background-color: var(--brand-color-fut);
 }
 
-.client {
-  background: var(--brand-color-fut);
-  margin-bottom: 94px;
-}
-.client .title {
-  margin-top: 94px;
-  margin-bottom: 50px;
-}
-
-.client .list {
+.client-list {
   display: flex;
   align-items: center;
+  justify-content: center;
+  background: var(--brand-color-fut);
+  padding: 94px;
+  list-style-type: none;
   gap: 30px;
 }
-.clients-icon {
+
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
-  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
 }
-
-.clients-icon:hover {
+.client-link:hover,
+.client-link:focus {
   fill: var(--brand-color-left);
   border: 1px solid var(--brand-color-left);
 }
@@ -644,6 +645,7 @@ outline: 1px solid red;
   display: flex;
   align-items: center;
   gap: 16px;
+  padding: 32px 0px;
 }
 
 .contacts-icon {
@@ -651,6 +653,10 @@ outline: 1px solid red;
 }
 .contacts-link:hover .contacts-icon {
   fill: #188ce8;
+}
+.contacts-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .socials {
@@ -684,7 +690,9 @@ outline: 1px solid red;
 
 .footer-socials {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .socials {
@@ -692,10 +700,18 @@ outline: 1px solid red;
   align-items: baseline;
 }
 
-/*.socials-icon {
-  fill: var(--contacts-color);
+.socials-link-f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  fill: var(--txt-color);
 }
-.socials-link:hover .socials-icon,
-.socials-link:focus .socials-icon {
-  fill: var(--brand-color-fut);
-}*/
+.socials-link-f:hover {
+  color: var(--brand-color-fut);
+  background-color: var(--brand-color-left);
+}
