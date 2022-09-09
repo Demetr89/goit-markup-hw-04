@@ -430,6 +430,11 @@ img {
 .link .adress {
   color: var(--light-txt-cl);
 }
+
+.link .adress:hover,
+.link .adress:focus {
+  color: var(--brand-color-left);
+}
 .contacts-addres {
   display: flex;
   align-items: baseline;
@@ -662,7 +667,6 @@ img {
 }
 .contacts-icon {
   fill: currentColor;
-  margin-right: 10px;
 }
 
 .socials {
