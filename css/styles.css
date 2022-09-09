@@ -679,13 +679,14 @@ img {
   width: 44px;
   height: 44px;
 
-  color: var(--contacts-color);
+  color: #afb1b8;
 
   background-color: var(--brand-color-fut);
   border-radius: 50%;
 }
 
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
   color: var(--brand-color-fut);
   background-color: var(--brand-color-left);
 }
