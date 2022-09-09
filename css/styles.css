@@ -431,8 +431,8 @@ img {
   color: var(--light-txt-cl);
 }
 
-.link .adress:hover,
-.link .adress:focus {
+.link-adress:hover,
+.link-adress:focus {
   color: var(--brand-color-left);
 }
 .contacts-addres {
@@ -732,11 +732,19 @@ img {
 }
 
 .link-footer {
-    display: block;
-    color:var(--contacts-color);
-    text-decoration: none;
-    font-size: 14px;
-    line-height: calc(24/14);
+display: block;
+font-family:var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+  
 }
 .link-footer:hover, .link-footer:focus {
     color: var(--brand-color-left);
