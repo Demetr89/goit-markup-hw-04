@@ -725,6 +725,11 @@ img {
   color: var(--brand-color-fut);
   background-color: var(--brand-color-left);
 }
+.socials-link-f:focus {
+  color: var(--brand-color-fut);
+  background-color: var(--brand-color-left);
+}
+
 
 .flex:hover {
   box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
